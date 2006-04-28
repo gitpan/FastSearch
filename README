@@ -1,0 +1,17 @@
+Text::FastSearch.pm
+
+Text::FastSearch.pm provides fast string search subroutines that use
+strategies of the Boyer-Moore search algorithm to find patterns within
+strings of any length with little overhead for longer patterns or
+subject text, and without the time and memory overhead of Perl's
+regular expression pattern matching.
+
+Installing Text::FastSearch.pm
+
+Text::FastSearch.pm uses the installation procedure of most Perl
+library modules.
+
+ # perl Makefile.PL
+ # make
+ # make install
+
